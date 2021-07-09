@@ -1,0 +1,9 @@
+{
+  "_id": {
+    "$oid": "60e78ffad2241bae1f19821b"
+  },
+  "id": 1,
+  "Nombre": "Carlos Varela",
+  "Email": "carlosjvare@gmail.com",
+  "password": "pepepe1234"
+}

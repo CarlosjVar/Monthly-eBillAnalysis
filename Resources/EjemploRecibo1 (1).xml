@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FacturaElectronica xmlns="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.3/facturaElectronica" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.3/facturaElectronica FacturaElectronica_V4.3.xsd">
+  <Clave>50607072100310213784300100001010000001136217838495</Clave>
+  <CodigoActividad>505002</CodigoActividad>
+  <NumeroConsecutivo>00100001010000001136</NumeroConsecutivo>
+  <FechaEmision>2021-07-07T15:36:05-06:00</FechaEmision>
+  <Emisor>
+    <Nombre>Químicas Quimán Ltda.</Nombre>
+    <Identificacion>
+      <Tipo>02</Tipo>
+      <Numero>3102137843</Numero>
+    </Identificacion>
+    <Ubicacion>
+      <Provincia>4</Provincia>
+      <Canton>01</Canton>
+      <Distrito>03</Distrito>
+      <Barrio>07</Barrio>
+      <OtrasSenas>Casa N°98</OtrasSenas>
+    </Ubicacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>22603568</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>caiman_cr@outlook.com</CorreoElectronico>
+  </Emisor>
+  <Receptor>
+    <Nombre>CARLOS MANUEL VARELA ULATE</Nombre>
+    <Identificacion>
+      <Tipo>01</Tipo>
+      <Numero>204420782</Numero>
+    </Identificacion>
+    <Ubicacion>
+      <Provincia>2</Provincia>
+      <Canton>06</Canton>
+      <Distrito>07</Distrito>
+      <OtrasSenas>600 metros al Sur, entrada al Rosario.</OtrasSenas>
+    </Ubicacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>88862400</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>transportesmahekati@gmail.com</CorreoElectronico>
+  </Receptor>
+  <CondicionVenta>02</CondicionVenta>
+  <PlazoCredito>30</PlazoCredito>
+  <MedioPago>01</MedioPago>
+  <DetalleServicio>
+    <LineaDetalle>
+      <NumeroLinea>1</NumeroLinea>
+      <Codigo>3532201050000</Codigo>
+      <CodigoComercial>
+        <Tipo>04</Tipo>
+        <Codigo>CHVE2,5G</Codigo>
+      </CodigoComercial>
+      <Cantidad>1.000</Cantidad>
+      <UnidadMedida>Gal</UnidadMedida>
+      <Detalle>Champú para Vehículos (2,5G)</Detalle>
+      <PrecioUnitario>17000.00000</PrecioUnitario>
+      <MontoTotal>17000.00000</MontoTotal>
+      <SubTotal>17000.00000</SubTotal>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifa>08</CodigoTarifa>
+        <Tarifa>13.00</Tarifa>
+        <Monto>2210.00000</Monto>
+      </Impuesto>
+      <MontoTotalLinea>19210.00000</MontoTotalLinea>
+    </LineaDetalle>
+  </DetalleServicio>
+  <ResumenFactura>
+    <CodigoTipoMoneda>
+      <CodigoMoneda>CRC</CodigoMoneda>
+      <TipoCambio>1.00000</TipoCambio>
+    </CodigoTipoMoneda>
+    <TotalServGravados>0.00000</TotalServGravados>
+    <TotalServExentos>0.00000</TotalServExentos>
+    <TotalServExonerado>0.00000</TotalServExonerado>
+    <TotalMercanciasGravadas>17000.00000</TotalMercanciasGravadas>
+    <TotalMercanciasExentas>0.00000</TotalMercanciasExentas>
+    <TotalMercExonerada>0.00000</TotalMercExonerada>
+    <TotalGravado>17000.00000</TotalGravado>
+    <TotalExento>0.00000</TotalExento>
+    <TotalExonerado>0.00000</TotalExonerado>
+    <TotalVenta>17000.00000</TotalVenta>
+    <TotalVentaNeta>17000.00000</TotalVentaNeta>
+    <TotalImpuesto>2210.00000</TotalImpuesto>
+    <TotalComprobante>19210.00000</TotalComprobante>
+  </ResumenFactura>
+  <InformacionReferencia>
+    <TipoDoc>08</TipoDoc>
+    <Numero>00000000000000000000000000000000000000000000001191</Numero>
+    <FechaEmision>2021-07-07T00:00:00-06:00</FechaEmision>
+    <Codigo>05</Codigo>
+    <Razon>Factura realizada con comprobante de contingencia.</Razon>
+  </InformacionReferencia>
+  <Otros>
+    <OtroTexto>Generado por: www.comprobanteselectronicoscr.com</OtroTexto>
+  </Otros><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-209759406"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>3FG2/GaWmad6Ewda3WOaivH7HjyXK124C8bo8iyQwcN04XZ8R+WsgKfjrketYKcCDAeaZ4/mak2IXhI/JZqOaA==</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-495309369"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>uQ+Mht/1tCOy+Rjqa897JxjcuVFeYLQ7oFDy6NK7qJD5pSxg+Om4TxS6qWoQuhQ9as5bp2VulYv13RkNEPx+ig==</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>CDmMTzRulAgda8eprLT9HvxWSP8HrnsRolwFFoT9uSfpQmFrqxVEDUIy0jEYJIA82/j599xirhi9Ef4F0WDuXt6E6jyDkI0atGzJ7A9Azno+baRYqEDdw7kdlMikhSaOh2efjSbVp3IiB5+3cy5P9AUX1N39i9bU6Pp0Kk1H4xQJjgnWmSq5FGB5RNRPCmg7NKJyBLkwOCA6gn1JGRT5atQTDeOTDKLFOs/gCGoSErP92WcIJX8/SPAeFMB3hKF4AszcswmOF13IHoz+Z6j2hjtAyejyui/p8OQiSJV8lR2mWVIrJdCGDSJBPAeDFBgoEtzgGAE0b5eE4ziJHcCJRw==</ds:SignatureValue><ds:KeyInfo><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>k6tua6TYV6qJJS5CHv/zNtHyDg0JxX2Jis3MhS0TLG5DMyKP50MjOifiqAgZ1xJuo7rFxOLOWM73rssgmcEUOrq1vLCyGHKAOMNNAPJu8aPM3dhQGRjS6h5I1AWoTsDfb0elPAUDd4qiCTQdZmYZLjwHTn53w5JrNYn4+ssro3jZLsdRgrGntR+7DS4vEwgASQhE7Dp8HjdubjLYUll59YH5SMmJpOgv+TKH7XaqaF1U388KtBMeGcj5XuB13FSp48GYksXp6zKPVtHToKdiM0xQq4OpL/bBPvatkKaFBakZgl/2JoxFjgxh4436CIa90Y5k3JsPlhahl89LzTObsQ==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue><ds:X509Data><ds:X509IssuerSerial><ds:X509IssuerName>CN=CA PERSONA JURIDICA, OU=DGT, O=MINISTERIO DE HACIENDA, C=CR</ds:X509IssuerName><ds:X509SerialNumber>1598888215403</ds:X509SerialNumber></ds:X509IssuerSerial><ds:X509SubjectName>CN=QUIMICAS QUIMAN LIMITADA, OU=CPJ, O=PERSONA JURIDICA, C=CR, 2.5.4.5=#131043504A2D332D3130322D313337383433</ds:X509SubjectName><ds:X509Certificate>MIIFGTCCAwGgAwIBAgIGAXRFKgNrMA0GCSqGSIb3DQEBCwUAMFoxCzAJBgNVBAYTAkNSMR8wHQYDVQQKDBZNSU5JU1RFUklPIERFIEhBQ0lFTkRBMQwwCgYDVQQLDANER1QxHDAaBgNVBAMME0NBIFBFUlNPTkEgSlVSSURJQ0EwHhcNMjAwODMxMTUzNjU1WhcNMjIwODMxMTUzNjU1WjB0MRkwFwYDVQQFExBDUEotMy0xMDItMTM3ODQzMQswCQYDVQQGEwJDUjEZMBcGA1UECgwQUEVSU09OQSBKVVJJRElDQTEMMAoGA1UECwwDQ1BKMSEwHwYDVQQDDBhRVUlNSUNBUyBRVUlNQU4gTElNSVRBREEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCTq25rpNhXqoklLkIe//M20fIODQnFfYmKzcyFLRMsbkMzIo/nQyM6J+KoCBnXEm6jusXE4s5YzveuyyCZwRQ6urW8sLIYcoA4w00A8m7xo8zd2FAZGNLqHkjUBahOwN9vR6U8BQN3iqIJNB1mZhkuPAdOfnfDkms1ifj6yyujeNkux1GCsae1H7sNLi8TCABJCETsOnweN25uMthSWXn1gflIyYmk6C/5MoftdqpoXVTfzwq0Ex4ZyPle4HXcVKnjwZiSxenrMo9W0dOgp2IzTFCrg6kv9sE+9q2QpoUFqRmCX/YmjEWODGHjjfoIhr3RjmTcmw+WFqGXz0vNM5uxAgMBAAGjgcowgccwHwYDVR0jBBgwFoAUO21X9dZ86Z4QAiBB470azM+zTpUwHQYDVR0OBBYEFHm753OETH00s4WSNWrHntNmm0HlMAsGA1UdDwQEAwIGwDATBgNVHSUEDDAKBggrBgEFBQcDBDBjBggrBgEFBQcBAQRXMFUwUwYIKwYBBQUHMAKGR2h0dHBzOi8vcGtpLmNvbXByb2JhbnRlc2VsZWN0cm9uaWNvcy5nby5jci9wcm9kL2ludGVybWVkaWF0ZS1wai1wZW0uY3J0MA0GCSqGSIb3DQEBCwUAA4ICAQCLtU0bt3mHQT2Hrt+ytMfxevkgvHWfbwdT9u1h23OjSSlwIV2c4PKVwSoYoETL16Gi5HGKE29MzvjVk3DeG5srGf1sn3fKu7Ou0pdzMUaNIkTJ8yA6UIfqaBMgTgK43eB5lC240fH1Ty1C5pB+A57zEdEU7KnXm/sENvARD4af8Kl590sxOTtAeNn/hGoNU9EwCQd3MN7sBYDsWBk20wlf56oJVp1AxHzLGyN4fBjRApbeDs60g5E8Tp7k2GPXMDPkuUJqdEBpwXORM5nL7sHcFB5pVYnWOq1gb8oDlGK0cfou76JK00NsvJNTwU/PlRilucbfyysgljp37dJ8uLjKot1Rj28s9nEq/GtaxoPQWw8aTk0FCkHdUwK08NbpGrTvUdsZCUQ8N1g6BQ+5yWw/IlXFFBEZJ3ch5A1Je7cgsTobcXVPDzroJVNDoCiIbIaFmW/p8N/kOnBfP8CXAr+IOHwVJessrY2tat8DUEwpZaJCJfvAkaXJhmW/xuOLiPZTjJ9FqMOya/s/YyEQqsujxzxrEFSC92bM5MrLrx80g1zgcuwHArPGge7I6S7uR9ebpI1eUVECAVK1ohklss7+EUhRh12eCJDB9vSITso/tv5pzJ01wK5PodHGHA+Z/pk2W+5evL5WS+yOJa34MKpyDJ6r9YUFflPCfW7u/CYiqA==</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xadesv141="http://uri.etsi.org/01903/v1.4.1#" Target="#Signature-209759406"><xades:SignedProperties Id="SignedProperties-495309369"><xades:SignedSignatureProperties><xades:SigningTime>2021-07-07T21:36:06.727Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>ll+uAt2gSYWSmNh4O+wRfmOJJrB2fOQqOOgN6q9z/X0XFWNmoiXXhv1zHbf+XD+nVebbyYEh6y2lgLyde1yEgA==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=CA PERSONA JURIDICA, OU=DGT, O=MINISTERIO DE HACIENDA, C=CR</ds:X509IssuerName><ds:X509SerialNumber>1598888215403</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyImplied/></xades:SignaturePolicyIdentifier></xades:SignedSignatureProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature>
+</FacturaElectronica>

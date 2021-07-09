@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FacturaElectronica xmlns="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.3/facturaElectronica" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.3/facturaElectronica FacturaElectronica_V4.3.xsd">
+  <Clave>50629062100020442078200100001010000000209190886572</Clave>
+  <CodigoActividad>602001</CodigoActividad>
+  <NumeroConsecutivo>00100001010000000209</NumeroConsecutivo>
+  <FechaEmision>2021-06-29T17:37:35-06:00</FechaEmision>
+  <Emisor>
+    <Nombre>Carlos Manuel Varela Ulate</Nombre>
+    <Identificacion>
+      <Tipo>01</Tipo>
+      <Numero>204420782</Numero>
+    </Identificacion>
+    <Ubicacion>
+      <Provincia>2</Provincia>
+      <Canton>06</Canton>
+      <Distrito>01</Distrito>
+      <Barrio>16</Barrio>
+      <OtrasSenas>Carlos Varela/Alajuela/Naranjo/Dulce Nombre 600 mts sur entrada del rosario</OtrasSenas>
+    </Ubicacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>88862400</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>transportesmahekati@gmail.com</CorreoElectronico>
+  </Emisor>
+  <Receptor>
+    <Nombre>Concentrados ALMOSI</Nombre>
+    <Identificacion>
+      <Tipo>02</Tipo>
+      <Numero>3101060063</Numero>
+    </Identificacion>
+    <NombreComercial>ALMOSI</NombreComercial>
+    <Ubicacion>
+      <Provincia>4</Provincia>
+      <Canton>07</Canton>
+      <Distrito>03</Distrito>
+      <OtrasSenas>Heredia, San Antonio, 4005</OtrasSenas>
+    </Ubicacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>22934001</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>jjimenez@almosi.com</CorreoElectronico>
+  </Receptor>
+  <CondicionVenta>02</CondicionVenta>
+  <PlazoCredito>21</PlazoCredito>
+  <MedioPago>01</MedioPago>
+  <DetalleServicio>
+    <LineaDetalle>
+      <NumeroLinea>1</NumeroLinea>
+      <Codigo>6511300000100</Codigo>
+      <CodigoComercial>
+        <Tipo>04</Tipo>
+        <Codigo>03</Codigo>
+      </CodigoComercial>
+      <Cantidad>1.000</Cantidad>
+      <UnidadMedida>Os</UnidadMedida>
+      <UnidadMedidaComercial>unid</UnidadMedidaComercial>
+      <Detalle>Transporte Insumos Agropecuarios y Canasta Basica</Detalle>
+      <PrecioUnitario>250261.07000</PrecioUnitario>
+      <MontoTotal>250261.07000</MontoTotal>
+      <SubTotal>250261.07000</SubTotal>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifa>02</CodigoTarifa>
+        <Tarifa>1.00</Tarifa>
+        <Monto>2502.61070</Monto>
+      </Impuesto>
+      <MontoTotalLinea>252763.68070</MontoTotalLinea>
+    </LineaDetalle>
+  </DetalleServicio>
+  <ResumenFactura>
+    <CodigoTipoMoneda>
+      <CodigoMoneda>CRC</CodigoMoneda>
+      <TipoCambio>1.00000</TipoCambio>
+    </CodigoTipoMoneda>
+    <TotalServGravados>250261.07000</TotalServGravados>
+    <TotalServExentos>0.00000</TotalServExentos>
+    <TotalServExonerado>0.00000</TotalServExonerado>
+    <TotalMercanciasGravadas>0.00000</TotalMercanciasGravadas>
+    <TotalMercanciasExentas>0.00000</TotalMercanciasExentas>
+    <TotalMercExonerada>0.00000</TotalMercExonerada>
+    <TotalGravado>250261.07000</TotalGravado>
+    <TotalExento>0.00000</TotalExento>
+    <TotalExonerado>0.00000</TotalExonerado>
+    <TotalVenta>250261.07000</TotalVenta>
+    <TotalVentaNeta>250261.07000</TotalVentaNeta>
+    <TotalImpuesto>2502.61070</TotalImpuesto>
+    <TotalComprobante>252763.68070</TotalComprobante>
+  </ResumenFactura>
+  <Otros>
+    <OtroTexto>Generado por: www.comprobanteselectronicoscr.com</OtroTexto>
+  </Otros><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-1532988175"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>eELX+GJkRdjWg5SFa89J7B3xazdQPdPkOKJVN0Nz7R3aSqMnDgT1j6EXyuwiE+NTLUicVzukU/rC3aY1lXPeqg==</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-1662172990"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>bbBDdLvtyh1Ffaow0hTVenw5LXl2Q9f9PRoGdQHdPKp0gHMyMYqheb1crq6I9Ikb2S4Aoc9idO5H+t1ehYpp2A==</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>QORnXjL79LeNgp283YScRCDE9ZEe09uG1euzlG4Bg0+rzL0hEfniUoSpjuTZcmeDd+KoYWwgPG/JaIofdtAFNm1wy9L2T5aOpOavADgtqooR74OxjsT17hdiFrrWRxsgjSJTtx4JjJSbU6G/NtfJ2n232isz4iXmObHlCjjI7NJSKei2L04NRJrj6S4qDjeMm/XbbiXjuiLY/5/CoBAtTA8erKWunZtb+GCHkD5LmdkCdEHPux3HVr9u6ElaRGeWkEb9qeaJM4pEedFMSViGOyP51FTGd+JX6VlnuJoY9psWlJcw/XLwU3XD95BLMv4DFbAyH/pm4j/USSKVsMawsw==</ds:SignatureValue><ds:KeyInfo><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>4msMCXxXvXV0QQbOoj2BwKGRAhK6SS49AupTVpEcGaBEAMYYFfi0yWHxT6WdleL3LY3A9rsgeFLEQvoYLmGN5+cEezn8+2SIS7OnOi2P+MsHDh8td+mHz5xXPN7GHBDldpljm1E1S7XbZR6WuKdl78dpSk78WLa9APsieZP7bGrcS8ujzGHOcd9M/h5l0ywwH0s4FjwR+R90eUB6mpIRck8S87v5m2IdPFV6Mkyr1KJrWCKX3dryV1iJEt6yhhuqFKRKx0qtw3s5uMuzJmP4wt1MX9TtsH0u9NOmSmuExjnq//MK5Ku19Nn7KV0e5AN9fJf5ifOkO39i7uv30z62mw==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue><ds:X509Data><ds:X509IssuerSerial><ds:X509IssuerName>CN=CA PERSONA FISICA, OU=DGT, O=MINISTERIO DE HACIENDA, C=CR</ds:X509IssuerName><ds:X509SerialNumber>1599597261886</ds:X509SerialNumber></ds:X509IssuerSerial><ds:X509SubjectName>CN=CARLOS MANUEL VARELA ULATE, OU=CPF, O=PERSONA FISICA, C=CR, 2.5.4.42=#0C0D4341524C4F53204D414E55454C, 2.5.4.4=#0C0C564152454C4120554C415445, 2.5.4.5=#13104350462D30322D303434322D30373832</ds:X509SubjectName><ds:X509Certificate>MIIFRzCCAy+gAwIBAgIGAXRvbTQ+MA0GCSqGSIb3DQEBCwUAMFgxCzAJBgNVBAYTAkNSMR8wHQYDVQQKDBZNSU5JU1RFUklPIERFIEhBQ0lFTkRBMQwwCgYDVQQLDANER1QxGjAYBgNVBAMMEUNBIFBFUlNPTkEgRklTSUNBMB4XDTIwMDkwODIwMzQyMVoXDTIyMDkwODIwMzQyMVowgaMxGTAXBgNVBAUTEENQRi0wMi0wNDQyLTA3ODIxFTATBgNVBAQMDFZBUkVMQSBVTEFURTEWMBQGA1UEKgwNQ0FSTE9TIE1BTlVFTDELMAkGA1UEBhMCQ1IxFzAVBgNVBAoMDlBFUlNPTkEgRklTSUNBMQwwCgYDVQQLDANDUEYxIzAhBgNVBAMMGkNBUkxPUyBNQU5VRUwgVkFSRUxBIFVMQVRFMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4msMCXxXvXV0QQbOoj2BwKGRAhK6SS49AupTVpEcGaBEAMYYFfi0yWHxT6WdleL3LY3A9rsgeFLEQvoYLmGN5+cEezn8+2SIS7OnOi2P+MsHDh8td+mHz5xXPN7GHBDldpljm1E1S7XbZR6WuKdl78dpSk78WLa9APsieZP7bGrcS8ujzGHOcd9M/h5l0ywwH0s4FjwR+R90eUB6mpIRck8S87v5m2IdPFV6Mkyr1KJrWCKX3dryV1iJEt6yhhuqFKRKx0qtw3s5uMuzJmP4wt1MX9TtsH0u9NOmSmuExjnq//MK5Ku19Nn7KV0e5AN9fJf5ifOkO39i7uv30z62mwIDAQABo4HKMIHHMB8GA1UdIwQYMBaAFBP2akEN7aIkRdHIlKhBg3xiJWtZMB0GA1UdDgQWBBQQ9vJtSWZ9ySWIyiuHtz39mTzWKjALBgNVHQ8EBAMCBsAwEwYDVR0lBAwwCgYIKwYBBQUHAwQwYwYIKwYBBQUHAQEEVzBVMFMGCCsGAQUFBzAChkdodHRwczovL3BraS5jb21wcm9iYW50ZXNlbGVjdHJvbmljb3MuZ28uY3IvcHJvZC9pbnRlcm1lZGlhdGUtcGYtcGVtLmNydDANBgkqhkiG9w0BAQsFAAOCAgEAmLX+kdsg5QoLakEASUZe7qCFOY9QgF1V4SuQs2k3mJi7tqmf191Os+1PX7gXWBhlP8RnS8bIVJ7prv78eWz/rpdncp6XHe8LpNLwd40hZrMSGCiDxxo2o1G6JN9H7Q9XHXsIfklBZxcxjPa0IyaIVvTploJ9R8gFDkm0KqW3S4VUhH/UAaL+u07nsE2+H6FcF5ZEirWQzAnl2Vm8NOSx7if84OKMYq+Enl/KIBYk7oPiso1kN2Yx3hC/PSejJP49stkqRMGIJZsPSqUBMRHm4z597NeCJL0sKQxqejDKizS1tfWIM7gQN85czT+nVCLvqoDRe1Qakc4PlQPmlXlTHI7jHF1JYQ5YlLNbolJNbYEnk/qydwVtbN35wscpI+9m45J7CsMwdA5K09ZEMrs3q1w/FsunhFAMdv4Ri2cpfrJ/E7su/Xr6fWFCXPaTxRUb4JiG5ZzxsPzy6prOnXJYnAM371HEw9X9o5EhRIrDgS3XN+hQzddvgsYMC1dsadetQBOBhFLPsvHyjxYZpEyixOdOBtNgdXzWZWKxN+rEPXsU9DKi1ZTngZtbnwiNwuwGn+keqjyC7YK2w6epsT3D8HUqS5hNmg4sDg5Gzb7wM7+9NQH8BRjrH+8+Sfs0LPt2ZhXrleW0Y7nFzZBtYd5P73MUounAMAJkUUnqEf5HKxs=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xadesv141="http://uri.etsi.org/01903/v1.4.1#" Target="#Signature-1532988175"><xades:SignedProperties Id="SignedProperties-1662172990"><xades:SignedSignatureProperties><xades:SigningTime>2021-06-29T23:37:37.249Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>oncksb+3/pTlIiXFSb6bqUHOriJKjwq/sSDynV3KvKZz9OiSqgIwCwc2njsmLI5qQZuu7dyZpqwLqs2PsX6mpg==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=CA PERSONA FISICA, OU=DGT, O=MINISTERIO DE HACIENDA, C=CR</ds:X509IssuerName><ds:X509SerialNumber>1599597261886</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyImplied/></xades:SignaturePolicyIdentifier></xades:SignedSignatureProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature>
+</FacturaElectronica>

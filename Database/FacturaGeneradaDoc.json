@@ -1,0 +1,11 @@
+{
+  "_id": {
+    "$oid": "60e78ffad2241bae1f19821b"
+  },
+  "Actividad": 602001,
+  "FechaEmision": "2021-06-29T17:37:35-06:00",
+  "Receptor": "Concentrados ALMOSI",
+  "TotalVenta": 250261.07,
+  "TotalImpuesto": 2502.6107,
+  "IdUsuario": 1
+}
